@@ -140,7 +140,7 @@ a {
   width: min(calc(100% - 48px), var(--max-width));
   min-height: 720px;
   margin: 0 auto;
-  padding: 96px 0 82px;
+  padding: 96px 0 56px;
 }
 
 .hero::before {
@@ -312,6 +312,10 @@ a {
   padding: 136px 0;
 }
 
+.section-feature {
+  padding-top: 40px;
+}
+
 .section-heading {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -423,7 +427,7 @@ a {
   position: relative;
   display: flex;
   flex-direction: column;
-  min-height: 410px;
+  min-height: 360px;
   padding: 34px;
   border: 1px solid var(--line);
   border-radius: var(--radius-md);
@@ -487,18 +491,6 @@ a {
   margin: 20px 0 28px;
   color: rgba(19, 35, 38, 0.74);
   font-size: 0.92rem;
-}
-
-.status-pill {
-  width: fit-content;
-  margin-top: auto;
-  padding: 7px 10px;
-  border: 1px solid rgba(19, 35, 38, 0.16);
-  border-radius: 999px;
-  font-size: 0.67rem;
-  font-weight: 800;
-  letter-spacing: 0.05em;
-  text-transform: uppercase;
 }
 
 .project-section {
@@ -605,37 +597,6 @@ a {
   text-underline-offset: 5px;
 }
 
-.github-note {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  gap: 30px;
-  margin-top: 32px;
-  padding: 26px 30px;
-  border-radius: 18px;
-  background: var(--paper-deep);
-}
-
-.github-note > div {
-  display: flex;
-  flex-direction: column;
-  gap: 2px;
-}
-
-.github-note span {
-  color: var(--ink-soft);
-  font-size: 0.72rem;
-  font-weight: 800;
-  letter-spacing: 0.1em;
-  text-transform: uppercase;
-}
-
-.github-note strong {
-  font-family: "Iowan Old Style", Georgia, serif;
-  font-size: 1.4rem;
-  font-weight: 500;
-}
-
 .publication-section {
   color: var(--white);
   background: var(--forest-deep);
@@ -652,12 +613,8 @@ a {
 }
 
 .publication-heading .eyebrow {
-  margin-bottom: 22px;
+  margin-bottom: 0;
   color: var(--mint);
-}
-
-.publication-heading h2 {
-  max-width: 760px;
 }
 
 .publication-intro p {
@@ -1044,6 +1001,10 @@ a {
     padding: 98px 0;
   }
 
+  .section-feature {
+    padding-top: 32px;
+  }
+
   .section-heading {
     gap: 26px;
   }
@@ -1067,7 +1028,7 @@ a {
   }
 
   .research-card {
-    min-height: 360px;
+    min-height: 330px;
     padding: 28px;
   }
 
@@ -1088,11 +1049,6 @@ a {
   .project-visual {
     min-height: 230px;
     padding: 10px;
-  }
-
-  .github-note {
-    align-items: stretch;
-    flex-direction: column;
   }
 
   .publication-inner,
