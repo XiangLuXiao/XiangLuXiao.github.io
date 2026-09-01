@@ -654,6 +654,19 @@ a {
   padding-bottom: 96px;
 }
 
+.experience-group + .experience-group {
+  margin-top: 72px;
+}
+
+.experience-label {
+  margin: 0 0 18px;
+  color: var(--forest);
+  font-size: 0.72rem;
+  font-weight: 800;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+}
+
 .timeline {
   border-top: 1px solid var(--line);
 }
