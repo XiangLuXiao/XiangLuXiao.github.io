@@ -429,35 +429,6 @@ a {
   margin: 22px 0;
 }
 
-.phd-research-band {
-  display: grid;
-  grid-template-columns: 230px 1fr auto;
-  gap: 48px;
-  align-items: baseline;
-  margin-top: 54px;
-  padding: 22px 0;
-  border-top: 1px solid var(--line);
-  border-bottom: 1px solid var(--line);
-}
-
-.phd-research-band strong,
-.phd-research-band span {
-  font-family: "Iowan Old Style", Georgia, serif;
-  font-size: 1.35rem;
-  font-weight: 500;
-}
-
-.phd-research-band strong {
-  color: var(--forest);
-  font-weight: 650;
-}
-
-.phd-research-band time {
-  color: var(--ink-soft);
-  font-size: 0.86rem;
-  font-weight: 700;
-}
-
 .selected-work-stack {
   display: grid;
   gap: 18px;
@@ -1063,17 +1034,6 @@ a {
   .timeline-item {
     grid-template-columns: 1fr;
     gap: 10px;
-  }
-
-  .phd-research-band {
-    grid-template-columns: 1fr;
-    gap: 4px;
-    margin-top: 40px;
-  }
-
-  .phd-research-band time {
-    grid-column: auto;
-    margin-top: 6px;
   }
 
   .contact-section {
