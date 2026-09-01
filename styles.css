@@ -196,30 +196,6 @@ a {
   line-height: 1.65;
 }
 
-.core-systems {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 9px;
-  margin-top: 24px;
-}
-
-.core-systems span {
-  padding: 8px 12px;
-  border: 1px solid rgba(19, 35, 38, 0.16);
-  border-radius: 999px;
-  color: var(--forest);
-  background: rgba(255, 253, 248, 0.6);
-  font-size: 0.76rem;
-  font-weight: 800;
-  letter-spacing: 0.02em;
-}
-
-.core-systems small {
-  color: rgba(19, 35, 38, 0.52);
-  font-size: 0.72em;
-  font-weight: 750;
-}
-
 .hero-links {
   display: flex;
   flex-wrap: wrap;
@@ -328,53 +304,6 @@ a {
   font-family: "Iowan Old Style", Georgia, serif;
   font-size: 1.05rem;
   line-height: 1.45;
-}
-
-.proof-strip {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr) 1.1fr;
-  width: min(100% - 48px, var(--max-width));
-  margin: 0 auto;
-  border-top: 1px solid var(--line);
-  border-bottom: 1px solid var(--line);
-}
-
-.proof-strip > * {
-  min-width: 0;
-  margin: 0;
-  padding: 30px clamp(16px, 2.5vw, 34px);
-  border-right: 1px solid var(--line);
-}
-
-.proof-strip > :first-child {
-  padding-left: 0;
-}
-
-.proof-strip > :last-child {
-  display: flex;
-  align-items: center;
-  border-right: 0;
-  color: var(--ink-soft);
-  font-size: 0.82rem;
-}
-
-.proof-strip div {
-  display: flex;
-  flex-direction: column;
-  gap: 2px;
-}
-
-.proof-strip strong {
-  font-family: "Iowan Old Style", Georgia, serif;
-  font-size: clamp(1.9rem, 3vw, 3rem);
-  font-weight: 500;
-  line-height: 1;
-}
-
-.proof-strip span {
-  color: var(--ink-soft);
-  font-size: 0.8rem;
-  font-weight: 650;
 }
 
 .section {
@@ -1041,21 +970,6 @@ a {
     width: min(100%, 470px);
   }
 
-  .proof-strip {
-    grid-template-columns: repeat(3, 1fr);
-  }
-
-  .proof-strip > :nth-child(3) {
-    border-right: 0;
-  }
-
-  .proof-strip > :last-child {
-    grid-column: 1 / -1;
-    justify-content: center;
-    padding: 14px;
-    border-top: 1px solid var(--line);
-  }
-
   .section-heading,
   .feature-card,
   .section-heading-compact,
@@ -1091,7 +1005,6 @@ a {
 @media (max-width: 620px) {
   .site-header,
   .hero,
-  .proof-strip,
   .section {
     width: min(100% - 28px, var(--max-width));
   }
@@ -1125,23 +1038,6 @@ a {
   .profile-links {
     justify-content: space-between;
     gap: 12px;
-  }
-
-  .proof-strip {
-    grid-template-columns: 1fr;
-  }
-
-  .proof-strip > * {
-    padding-left: 0;
-    border-right: 0;
-    border-bottom: 1px solid var(--line);
-  }
-
-  .proof-strip > :last-child {
-    grid-column: auto;
-    justify-content: flex-start;
-    border-top: 0;
-    border-bottom: 0;
   }
 
   .section {

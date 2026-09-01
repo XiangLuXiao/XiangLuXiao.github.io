@@ -21,6 +21,6 @@ The included workflow publishes the site to `https://xiangluxiao.github.io/` aft
 ## Content notes
 
 - Public repository links were verified against the `XiangLuXiao` GitHub profile in September 2026.
-- Google Scholar metrics are a static September 2026 snapshot.
 - The academic email is public; the telephone number from the source CV is intentionally not included.
 - Publication descriptions and professional experience were checked against the August 2026 research CV.
+- The homepage research philosophy is adapted from the August 2026 AI Co-Scientist presentation.
