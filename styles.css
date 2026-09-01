@@ -429,22 +429,35 @@ a {
   margin-top: 22px;
 }
 
-.feature-card-text {
-  grid-template-columns: 1fr;
+.feature-card-selected {
+  grid-template-columns: minmax(0, 1.08fr) minmax(330px, 0.92fr);
+  min-height: 440px;
+}
+
+.feature-card-selected .feature-image {
+  min-height: 400px;
+}
+
+.feature-card-selected .feature-copy {
   min-height: 0;
+  padding: clamp(34px, 4vw, 54px);
 }
 
-.feature-card-text .feature-copy {
-  min-height: 0;
-  padding: 38px 42px 42px;
+.feature-card-selected .feature-copy h3 {
+  font-size: clamp(2.2rem, 3.6vw, 3.8rem);
 }
 
-.feature-card-text .feature-copy h3 {
-  font-size: clamp(2.2rem, 4vw, 3.8rem);
+.feature-image-dark {
+  background: #070d0e;
 }
 
-.feature-card-text .feature-copy > p {
-  max-width: 980px;
+.feature-image-paper {
+  background: #f6faf8;
+}
+
+.feature-image-tall {
+  min-height: 560px !important;
+  background: #e9e8ff;
 }
 
 .research-card {
