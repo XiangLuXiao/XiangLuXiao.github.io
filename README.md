@@ -1,6 +1,6 @@
 # Xianglu Xiao — Personal Research Website
 
-A bilingual, responsive personal research website prepared for GitHub Pages.
+An English-language, responsive personal research website prepared for GitHub Pages.
 
 ## Preview locally
 
@@ -23,4 +23,4 @@ The included workflow publishes the site to `https://xiangluxiao.github.io/` aft
 - Public repository links were verified against the `XiangLuXiao` GitHub profile in September 2026.
 - Google Scholar metrics are a static September 2026 snapshot.
 - The academic email is public; the telephone number from the source CV is intentionally not included.
-- Replace `assets/xianglu-xiao.jpg` with a higher-resolution portrait at the same path when available.
+- Publication descriptions and professional experience were checked against the August 2026 research CV.
