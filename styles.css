@@ -518,15 +518,6 @@ a {
   font-size: clamp(2rem, 3vw, 3rem);
 }
 
-.research-card h3 small {
-  display: block;
-  margin-top: 7px;
-  color: rgba(19, 35, 38, 0.54);
-  font-family: inherit;
-  font-size: 0.34em;
-  letter-spacing: 0;
-}
-
 .research-card > p:not(.research-kicker) {
   margin: 20px 0 28px;
   color: rgba(19, 35, 38, 0.74);
