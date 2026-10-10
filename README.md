@@ -24,3 +24,5 @@ The included workflow publishes the site to `https://xiangluxiao.github.io/` aft
 - The academic email is public; the telephone number from the source CV is intentionally not included.
 - Publication descriptions and professional experience were checked against the August 2026 research CV.
 - The homepage research philosophy is adapted from the August 2026 AI Co-Scientist presentation.
+- October 2026 updates were checked against the [PharmKGPT public platform](https://pharmkgpt.mindrank.ai/), the [Molecular Neurodegeneration article](https://link.springer.com/article/10.1186/s13024-026-00998-2) published on 7 October 2026, and the [CrystalXGPT sign-in page](https://crystalxgpt.com/login).
+- The article lists Xianglu Xiao among four equal contributors; its project card and publication entry use “Co-first author”. PharmKGPT knowledge-base counts reflect the public homepage as of 10 October 2026. CrystalXGPT requires sign-in to access the workspace.

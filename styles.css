@@ -524,6 +524,14 @@ a {
   font-size: 0.92rem;
 }
 
+.research-card .card-links {
+  margin-top: auto;
+}
+
+.research-card .card-links a {
+  color: var(--forest);
+}
+
 .section-heading-compact {
   grid-template-columns: minmax(0, 1.1fr) minmax(300px, 0.55fr);
 }
