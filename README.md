@@ -26,3 +26,11 @@ The included workflow publishes the site to `https://xiangluxiao.github.io/` aft
 - The homepage research philosophy is adapted from the August 2026 AI Co-Scientist presentation.
 - October 2026 updates were checked against the [PharmKGPT public platform](https://pharmkgpt.mindrank.ai/), the [Molecular Neurodegeneration article](https://link.springer.com/article/10.1186/s13024-026-00998-2) published on 7 October 2026, and the [CrystalXGPT sign-in page](https://crystalxgpt.com/login).
 - The article lists Xianglu Xiao among four equal contributors; its project card and publication entry use “Co-first author”. PharmKGPT knowledge-base counts reflect the public homepage as of 10 October 2026. CrystalXGPT requires sign-in to access the workspace.
+
+## Standalone research reports
+
+- [Minibinder Benchmark Atlas](https://xiangluxiao.github.io/minibinder/) — five benchmark studies, 38 gene / target nodes, mechanisms, therapeutic indications and study recommendations.
+- [Recommendation view](https://xiangluxiao.github.io/minibinder/#recommendations).
+- [Download the single-file HTML](https://xiangluxiao.github.io/minibinder/minibinder-atlas.html).
+
+The atlas embeds its data, styles and scripts. It needs no backend API or external assets; reference links open the cited sources. Review marks stay in the viewer's browser. Update both HTML files together to keep the online and downloadable editions identical.
