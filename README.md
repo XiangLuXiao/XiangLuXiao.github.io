@@ -21,7 +21,7 @@ The included workflow publishes the site to `https://xiangluxiao.github.io/` aft
 ## Content notes
 
 - Public repository links were verified against the `XiangLuXiao` GitHub profile in September 2026.
-- The homepage lists the public academic email and links to the full supplied CV through “View CV (PDF)”.
+- The homepage lists the public academic email and links to the full supplied CV through “CV (PDF)” in the footer.
 - The downloadable CV at `assets/xianglu-xiao-cv.pdf` was updated from the supplied PDF on 7 November 2026.
 - Publication descriptions and professional experience were checked against the August 2026 research CV.
 - The homepage research philosophy is adapted from the August 2026 AI Co-Scientist presentation.
