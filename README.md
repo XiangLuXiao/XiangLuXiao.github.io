@@ -21,7 +21,8 @@ The included workflow publishes the site to `https://xiangluxiao.github.io/` aft
 ## Content notes
 
 - Public repository links were verified against the `XiangLuXiao` GitHub profile in September 2026.
-- The academic email is public; the telephone number from the source CV is intentionally not included.
+- The homepage lists the public academic email and links to the full supplied CV through “View CV (PDF)”.
+- The downloadable CV at `assets/xianglu-xiao-cv.pdf` was updated from the supplied PDF on 7 November 2026.
 - Publication descriptions and professional experience were checked against the August 2026 research CV.
 - The homepage research philosophy is adapted from the August 2026 AI Co-Scientist presentation.
 - October 2026 updates were checked against the [PharmKGPT public platform](https://pharmkgpt.mindrank.ai/), the [Molecular Neurodegeneration article](https://link.springer.com/article/10.1186/s13024-026-00998-2) published on 7 October 2026, and the [CrystalXGPT sign-in page](https://crystalxgpt.com/login).
